@@ -11,6 +11,9 @@
   .amazon-home-link {
     color: rgb(0, 133, 133);
   }
+  .amazon-home-link:hover {
+    color: orange;
+  }
 
   .product-title {
     font-size: 24px;
@@ -29,6 +32,15 @@
     border-radius: 15px;
     margin-right: 8px;
     cursor: pointer;
+    transition:
+      background-color 0.2s,
+      opacity 0.2s;
+  }
+  .cart-button:hover {
+    background-color: rgb(255, 225, 77);
+  }
+  .cart-button:active {
+    opacity: 0.6;
   }
 
   .buy-now-button {
@@ -38,5 +50,14 @@
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    transition:
+      background-color 0.2s,
+      opacity 0.2s;
+  }
+  .buy-now-button:hover {
+    background-color: rgb(255, 180, 67);
+  }
+  .buy-now-button:active {
+    opacity: 0.6;
   }
 </style>
