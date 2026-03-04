@@ -1,0 +1,179 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-title {
+  width: 280px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 8px;
+}
+
+.video-stats {
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.video-author {
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.video-info {
+  width: 280px;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+.apple-text {
+  font-size: 15px;
+  text-align: center;
+  background-color: rgb(255, 54, 54);
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-bottom: 50px;
+}
+
+.shop-now-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.course-title {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.course-sub-title {
+  color: rgb(96, 96, 96);
+  margin-bottom: 12px;
+}
+
+.course-info {
+  width: 250px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.course-info2 {
+  font-size: 15px;
+  background-color: rgb(11, 107, 11);
+  color: white;
+  padding: 5px 8px;
+  width: 80px;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mac-status {
+  text-align: center;
+  color: red;
+  margin-bottom: 5px;
+}
+
+.mac-name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mac-info {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mac-price {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.buy {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mac-buy {
+  color: white;
+  background-color: rgb(47, 113, 255);
+  padding: 6px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.mac-buy:hover {
+  opacity: 0.7;
+}
+
+.stock-price {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.stock-currency {
+  color: rgb(97, 97, 97);
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.stock-growth {
+  color: rgb(2, 98, 2);
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.stock-hours {
+  color: rgb(97, 97, 97);
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.stock-fall {
+  color: rgb(255, 23, 23);
+  font-size: 18px;
+}
+
+.tweet {
+  margin-top: 50px;
+}
+
+.tweet-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tweet-user-name {
+  font-size: 18px;
+  color: rgb(97, 97, 97);
+}
+
+.tweet-info {
+  margin-top: 8px;
+  margin-bottom: 18px;
+  font-size: 18px;
+  width: 580px;
+  line-height: 22px;
+}
+
+.tweet-desc {
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+.tweet-mention {
+  font-size: 18px;
+  color: rgb(0, 111, 155);
+}
