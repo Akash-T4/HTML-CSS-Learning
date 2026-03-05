@@ -177,3 +177,17 @@ p {
   font-size: 18px;
   color: rgb(0, 111, 155);
 }
+
+.model-3 {
+  font-size: 40px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-align: center;
+}
+.model-3-order {
+  font-size: 20px;
+  font-family: Montserrat;
+  margin-bottom: 50px;
+  margin-top: 18px;
+  text-align: center;
+}
