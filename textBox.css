@@ -85,6 +85,13 @@ p {
   vertical-align: middle;
 }
 
+.tweet-box {
+  width: 420px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
 .survey-question {
   display: inline-block;
   width: 230px;
