@@ -69,6 +69,15 @@ p {
   object-fit: cover;
 }
 
+.dog-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
 .cat-name {
   font-weight: bold;
   margin-top: 6px;
@@ -80,6 +89,7 @@ p {
   color: rgb(84, 84, 84);
   margin-bottom: 8px;
   margin-left: 6px;
+  display: inline-block;
 }
 
 .cat-add-friend-btn {
@@ -91,6 +101,7 @@ p {
   border-radius: 4px;
   margin-left: 6px;
   margin-bottom: 10px;
+  margin-top: 8px;
   cursor: pointer;
 }
 
