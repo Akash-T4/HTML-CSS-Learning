@@ -87,9 +87,9 @@ p {
 
 .cat-friends-count {
   color: rgb(84, 84, 84);
-  margin-bottom: 8px;
   margin-left: 6px;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .cat-add-friend-btn {
