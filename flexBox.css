@@ -1,0 +1,73 @@
+p,
+div {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header-bar {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  background-color: rgb(152, 55, 255);
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.home {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.search-bar {
+  width: 400px;
+  border-radius: 200px;
+  border-style: solid;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.download-button {
+  color: white;
+  background-color: rgb(152, 55, 255);
+  font-size: 14px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  padding: 8px 12px;
+}
+
+.left-section {
+  width: 100px;
+}
+
+.middle-section {
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.right-section {
+  width: 100px;
+}
+
+.message-info {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+.message {
+  flex: 1;
+}
+
+.message-count {
+  background-color: rgb(39, 136, 255);
+  padding: 1px 5px;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+}
