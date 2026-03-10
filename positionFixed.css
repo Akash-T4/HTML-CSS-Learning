@@ -1,0 +1,117 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  height: 3000px;
+  background-color: rgb(196, 196, 196);
+}
+
+.bottom-right {
+  position: fixed;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  right: 20px;
+  bottom: 20px;
+}
+
+.right-sidebar {
+  position: fixed;
+  background-color: green;
+  color: white;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 200px;
+}
+
+.page-cover {
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.page-cover-green {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-box {
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.popup-content-1 {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.popup-content-2 {
+  font-size: 20px;
+  padding: 15px;
+}
+
+.popup-content-button {
+  background-color: black;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.header-bar {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+}
+
+.cat-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.add-button {
+  background-color: rgb(50, 153, 243);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.message-button {
+  background-color: rgb(219, 219, 219);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
